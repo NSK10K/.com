@@ -328,7 +328,7 @@
         el.style.borderColor="var(--accent)";
 
         document.getElementById("paySection").style.display="block";
-        document.getElementById("planLabel").innerText=`INVOICE: ₹${price}`;
+        document.getElementById("planLabel").innerText=`PLANS: ₹${price}`;
 
         const link=`upi://pay?pa=${upi}&pn=NSKGLORY&am=${price}&cu=INR`;
         document.getElementById("qrImg").src=
